@@ -38,7 +38,6 @@ header nav li a {
     text-decoration: none;
 }
 
-
 .sobre {
     margin-top: 36px;
     margin-bottom: 56px;
@@ -102,6 +101,46 @@ section h2 {
     background-color: #4346e2;
 }
 
+@media screen and (max-width: 640px) {
+    
+    .container {
+        max-width: 90%;
+    }
+
+    header {
+        padding: 30px 0px;
+    }
+
+    header nav li {
+        display: block;
+        margin-left: 12px;
+        font-size: 18px;
+    }
+
+    .sobre {
+        display: block;
+    }
+
+    .img-loja {
+        width: 100%;
+        margin-bottom: 26px;
+    }
+    
+    .img-loja img,
+    .produto img {
+        width: 100%;
+    }
+    
+    .produto button {
+        margin-bottom: 26px;
+    }
+
+    .produtos {
+       display: block;
+    }
+
+}
+
 @media screen and (min-width: 641px) and (max-width: 1023px){
     
     .container {
@@ -109,12 +148,7 @@ section h2 {
     }
 
     .sobre {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .produtos img {
-        max-width: 100%;
+        display: block;
     }
 
     .sobre .produto {
@@ -128,8 +162,13 @@ section h2 {
     .sobre h2 {
         margin-top: 24px;
     }
-}
 
-@media screen and (max-width: 640) {
-   
+    .img-loja {
+        width: 100%;
+    }
+    
+    .img-loja img,
+    .produto img {
+        width: 100%;
+    }
 }
